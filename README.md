@@ -34,5 +34,4 @@ Now that Node and NPM are set up, run the following command to install the Ionic
 npm install -g ionic cordova
 ```
 
-> Apache Cordova (also known as PhoneGap) is a framework that provides web applications access to native > mobile device APIs and bundles them for distribution on various app stores. Ionic is built on top of
-> Cordova. 
+> Apache Cordova (also known as PhoneGap) is a framework that provides web applications access to native mobile device APIs and bundles them for distribution on various app stores. Ionic is built on top of Cordova. 
