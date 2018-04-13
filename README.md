@@ -75,3 +75,7 @@ ionic cordova platform add ios
 Once this command is finished running, you can then cd into **/platforms/ios** and open the **appName.xcodeproj** file. Sign into your Apple Developer account and select a development team.
 
 ![alt text](img/xcode.png)
+
+### Testing on Android
+
+Coming soon! In the meantime, check out [the documentation](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html) to learn more.
