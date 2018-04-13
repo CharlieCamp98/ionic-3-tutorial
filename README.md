@@ -1,2 +1,3 @@
-# ionic-3-tutorial
-A guide written to help others quickly get started with the Ionic Framework
+# Ionic 3 Tutorial
+
+## Part 0: Introduction to Ionic
