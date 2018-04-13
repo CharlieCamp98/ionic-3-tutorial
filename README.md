@@ -7,7 +7,7 @@ The framework empowers web developers to build apps for all major app stores and
 
 A powerful command-line-interface (CLI) coupled with a pre-built UI kit, 120+ native APIs, and a strong developer community makes building applications with Ionic a breeze.
 
-Ionic is powered by Google's popular **Angular** framework and Microsoft's **TypeScript** superset of Javascript. This tutorial assumes that you have at least a bit of prior experience with these technologies. Considering using the following resources to familiarize yourself:
+Ionic is powered by Google's popular **Angular** framework and Microsoft's **TypeScript** superset of Javascript. This tutorial assumes that you have at least a bit of prior experience with these technologies. If not, please consider using the following resources to familiarize yourself:
 
 ### Angular Resources
 
@@ -21,3 +21,18 @@ Ionic is powered by Google's popular **Angular** framework and Microsoft's **Typ
 
 * [Official Documentation](https://www.typescriptlang.org/)
 * [45 Minute Crash Course](https://www.youtube.com/watch?v=rAy_3SIqT-E)
+
+## Part 1: Installing Ionic
+
+Most Ionic CLI tools are based on Node.js, with dependencies being managed through the Node Package Manager (NPM). As such, Node and NPM must be installed on your system before continuing.
+
+Install Node and NPM with the [Node.js Installer](https://nodejs.org/en/)
+
+Now that Node and NPM are set up, run the following command to install the Ionic and Cordova CLI.
+
+```
+npm install -g ionic cordova
+```
+
+> Apache Cordova (also known as PhoneGap) is a framework that provides web applications access to native > mobile device APIs and bundles them for distribution on various app stores. Ionic is built on top of
+> Cordova. 
