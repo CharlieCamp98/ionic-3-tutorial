@@ -34,4 +34,44 @@ Now that Node and NPM are set up, run the following command to install the Ionic
 npm install -g ionic cordova
 ```
 
-> Apache Cordova (also known as PhoneGap) is a framework that provides web applications access to native mobile device APIs and bundles them for distribution on various app stores. Ionic is built on top of Cordova. 
+> Apache Cordova (also known as PhoneGap) is a framework that provides web applications access to native mobile device APIs and bundles them for distribution on various app stores. Ionic is built on top of Cordova.
+
+After installing the aforementioned command line interfaces, you can instantiate your first Ionic Application with the following command:
+
+```
+ionic start appName blank
+```
+
+> Note that Ionic provides various [Starter Templates](https://ionicframework.com/docs/cli/starters.html). In this case, we are using a blank template that is ready for customization.
+
+Now that you've instantiated your application, cd into the **/appName** directory that was created and execute the following command to test your app in the browser. (LiveReload Included!!!)
+
+```
+ionic serve
+```
+
+### Testing on iOS
+
+**Note: You must have an Apple computer with xCode installed to test on iOS**
+
+To test on iOS, you must install the ios-deploy Cordova platform.
+
+```
+npm install -g ios-deploy
+```
+
+Next, open the config.xml file located in your project's root directory and change the **<widget>** id to a unique string. Something like:
+
+```
+<widget id="com.appName.app" ...>
+```
+
+Then, run the following command:
+
+```
+ionic cordova platform add ios
+```
+
+Once this command is finished running, you can then cd into **/platforms/ios** and open the **appName.xcodeproj** file. Sign into your Apple Developer account and select a development team.
+
+![alt text](img/xcode.png)
