@@ -15,7 +15,7 @@ Ionic is powered by Google's popular **Angular** framework and Microsoft's **Typ
 * [60 Minute Crash Course](https://www.youtube.com/watch?v=KhzGSHNhnbI&t=54s)
 * [Angular-SF MeetUp (Bay Area)](https://www.meetup.com/Angular-SF/)
 
-**Please Note:** When studying Angular, be sure to read up on **Angular 2.0+**. Angular 1.x is an entirely **different** framework that utilizes an MVC-based architecture instead of an (oftentimes considered more scalable) component-based architecture.
+**Please Note:** When studying Angular, be sure to read up on **Angular 2.x, 4.x, or 5.x+**. Angular 1.x is an entirely **different** framework that utilizes an MVC-based architecture instead of an (oftentimes considered more scalable) component-based architecture.
 
 ### TypeScript Resources
 
